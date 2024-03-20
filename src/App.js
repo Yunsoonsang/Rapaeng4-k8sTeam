@@ -1,12 +1,12 @@
 import React, { useCallback, useRef, useState } from 'react';
 import TodoTemplate from './components/TodoTemplate';
 import TodoInsert from './components/TodoInsert';
-import TodoList from './components/TodoList';
+// import TodoList from './components/TodoList';
 
 
 const App = () => {
   // 꼭 state타입의 변수를 선언해야 한다. 데이터는 언제나 갱신되고 업데이트 해야 하니까.
-  const [todos, setTodos] = useState([
+  // const [todos, setTodos] = useState([
     {
       id: 1,
       text: '리액트의 기초 알아보기',
