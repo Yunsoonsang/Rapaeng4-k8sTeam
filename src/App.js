@@ -6,6 +6,7 @@ import TodoList from './components/TodoList';
 
 const App = () => {
   // 꼭 state타입의 변수를 선언해야 한다. 데이터는 언제나 갱신되고 업데이트 해야 하니까.
+  const count = 0;
   const [todos, setTodos] = useState([
     {
       id: 1,
