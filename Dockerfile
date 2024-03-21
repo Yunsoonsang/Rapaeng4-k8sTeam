@@ -3,10 +3,10 @@ FROM node:latest AS build
 
 WORKDIR /app
 
-COPY package*.json .
+COPY ./app/package*.json .
 RUN npm install
 
-COPY . .
+COPY ./app .
 RUN npm run build
 
 # 리액트 production하기
