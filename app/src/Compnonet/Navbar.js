@@ -7,7 +7,7 @@ export default function Navbar() {
                 <div className="container">
                     <Link className="navbar-brand fw-bold" to="/">Team Camucamu</Link>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <i class="bi bi-bar-chart-steps"></i>
+                    <i className="bi bi-bar-chart-steps"></i>
                     </button>
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
