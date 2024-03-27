@@ -1,5 +1,5 @@
 # 리액트 build하기
-FROM node:latest AS build
+FROM node:16.20.2 AS build
 
 WORKDIR /app
 
