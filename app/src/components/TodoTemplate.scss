@@ -1,0 +1,24 @@
+.TodoTemplate {
+    width: 512px;
+    // width가 주어진 상태에서 좌우 중앙 정렬
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 6rem;
+    border-radius: 4px;
+    overflow: hidden;
+    
+    // .TodoTemplate안에 선언한 클래스이기 때문에 밖에 있는 부모의 설정을 그대로 적용된다!
+    // 이러한 계층 구조를 가질 수 있는게 scss의 주요 기능이다.
+    .app-title {
+      background: #22b8cf;
+      color: white;
+      height: 4rem;
+      font-size: 1.5rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .content {
+      background: white;
+    }
+}
