@@ -1,9 +1,10 @@
-FROM node:16.20.2
-
+# Dockerfile.dev
+FROM node:16.20.2-alpine3.18
+  
 WORKDIR /app
 
-COPY ./package.json .
-
+# 종속성 패키지 설치
+COPY package*.json .
 RUN npm install
 
 COPY . .
